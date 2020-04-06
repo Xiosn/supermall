@@ -2,13 +2,11 @@ import axios from 'axios';
 
 export function request(config) {
 
-    let Url1 = 'http://123.207.32.32:8000/api/wh';
-    let Url2 = 'http://106.54.54.237:8000/api/wh';
+    let Url1 = '接口暂不提供';
+    let Url2 = '接口暂不提供';
    
     // 1、创建axios实例
     const instance = axios.create({
-        // baseURL: 'http://106.54.54.237:8000/api/hy',
-        // baseURL: "http://123.207.32.32:8000/api/hy",
         baseURL: Url1 ? Url1 : Url2,
         
         timeout: 3000
