@@ -15,7 +15,7 @@ export default {
 <style>
   .nav-bar {
     display: flex;
-    line-height: 44px;
+    line-height: 45px;
     /* background-color: #FF5777; */
     box-shadow: 0 1px 1px rgba(100, 100, 100, .1)
   }

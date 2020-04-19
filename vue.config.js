@@ -10,7 +10,11 @@ module.exports = {
           'components':'@/components',
           'network':'@/network',
           'views':'@/views',
+          'utils':'@/utils',
+          'static':'@/static'
         }
       }
-    }
+    },
+    publicPath: './',
+    productionSourceMap: false
   }

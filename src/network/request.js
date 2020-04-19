@@ -2,8 +2,8 @@ import axios from 'axios';
 
 export function request(config) {
 
-    let Url1 = '接口暂不提供';
-    let Url2 = '接口暂不提供';
+    let Url1 = '暂不提供';
+    let Url2 = '暂不提供';
    
     // 1、创建axios实例
     const instance = axios.create({

@@ -7,6 +7,11 @@ import toast from 'components/common/toast'
 import FastClick from 'fastclick'
 import VueLazyLoad from 'vue-lazyload'
 
+import mui from './mui/js/mui.min.js'//引入mui
+Vue.prototype.$mui = mui;
+
+import './utils/appBack'
+
 Vue.config.productionTip = false
 
 // 添加事件总线对象
